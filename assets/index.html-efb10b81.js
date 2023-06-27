@@ -1,0 +1,1 @@
+const a=JSON.parse(`{"key":"v-8daa1a0e","path":"/","title":"lattely's digital garden","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1687881785000,"contributors":[{"name":"lattely","email":"ylianggeom@foxmail.com","commits":1}]},"filePathRelative":"README.md"}`);export{a as data};
