@@ -53,7 +53,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <Menu size={24} />
               </button>
               {isMenuOpen && (
-                <div className="absolute top-16 left-0 right-0 bg-white shadow-md rounded-md py-2">
+                <div className="absolute top-16 right-0 shadow-md rounded-md py-2 bg-white/80">
                   {navItems.map((item) => {
                     const Icon = item.icon;
                     return (

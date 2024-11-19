@@ -1,7 +1,6 @@
 import React from 'react';
 import { format, startOfMonth, endOfMonth, eachDayOfInterval } from 'date-fns';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import type { Article } from '../types';
 
 const Calendar: React.FC<{ articles: Article[] }> = ({ articles }) => {
